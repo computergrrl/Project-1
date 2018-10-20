@@ -14,7 +14,7 @@ followed by whatever the appropriate value is for that quote.
 In order to create a couple of functions that I could use to change the quote and
 the background color at the same time (a task which embarrassingly took me longer
 to figure out how to do than did the initial project) I had to write some JavaScript
-functions which I put in a separate file called 'randomizer.js'.  That file can
+functions which I put in a separate file called 'randomizer.js'. (The page is set to refresh the quote and the color every 7 seconds.) That randomizer.js file can
 also be found in the 'inc' folder.
 
 Whew! I think that's everything.  Ok! Here's me crossing my fingers....

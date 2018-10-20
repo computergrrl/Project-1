@@ -32,7 +32,7 @@ function randomizer() {
    document.getElementsByTagName("body")[0].style.backgroundColor = ColorValue;
 
 //set interval to call randomizer2 function after 3 seconds
-window.setInterval("randomizer2()",5000);
+window.setInterval("randomizer2()",7000);
 
 }
 
