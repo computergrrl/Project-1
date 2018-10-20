@@ -1,23 +1,15 @@
 <?php
 
-
-
 //include the file with the quotes array
 include('inc/quotes.php');
 //include the file with the functions
 include('inc/functions.php');
 
-
+//use echo commands to display the html
 echo '<!DOCTYPE html>
 <html lang="en">
 <head>
-<script lang="JavaScript">
-function randomizer() {
-  window.location.reload(true);
-}
-  </script>
-
-
+<script src="inc/randomizer.js"></script>
   <meta charset="UTF-8">
   <title>Random Quotes</title>
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic" rel="stylesheet" type="text/css">
@@ -26,9 +18,10 @@ function randomizer() {
 
 </head>';
 echo '
-<body onLoad=window.setTimeout("randomizer()",5000)>
+<body onLoad="randomizer()">
   <div class="container">
     <div id="quote-box">';
+//call the printQuote function
 printQuote();
 
     echo '</div>
@@ -36,16 +29,5 @@ printQuote();
   </div>
 </body>
 </html>';
-
-
-
-
-
-
-
-
-
-
-
 
 ?>

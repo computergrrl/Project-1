@@ -39,7 +39,7 @@ if($getQuote['citation'] && $getQuote['year']) {
    echo '</p>';
  }
 //display additional 'quotes by' info
-echo '<br><span class="quotesby">quotes from '.$getQuote['quotesfrom'].'</span>';
+echo '<br><span class="quotesfrom"> quotes from -'.$getQuote['quotesfrom'].'</span>';
 }
 
 ?>
